@@ -13,6 +13,8 @@
 		07CD00721DEFF230009DF8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD00711DEFF230009DF8C0 /* Assets.xcassets */; };
 		07CD00751DEFF230009DF8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD00731DEFF230009DF8C0 /* LaunchScreen.storyboard */; };
 		07CD00801DEFF236009DF8C0 /* QuizloopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD007F1DEFF236009DF8C0 /* QuizloopUITests.swift */; };
+		07CD008B1DF14A3D009DF8C0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD008A1DF14A3D009DF8C0 /* QuizViewController.swift */; };
+		07CD008D1DF15F05009DF8C0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD008C1DF15F05009DF8C0 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		07CD007B1DEFF236009DF8C0 /* QuizloopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizloopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD007F1DEFF236009DF8C0 /* QuizloopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizloopUITests.swift; sourceTree = "<group>"; };
 		07CD00811DEFF236009DF8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CD008A1DF14A3D009DF8C0 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		07CD008C1DF15F05009DF8C0 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		07CD00691DEFF22E009DF8C0 /* Quizloop */ = {
 			isa = PBXGroup;
 			children = (
+				07CD008C1DF15F05009DF8C0 /* ResultViewController.swift */,
 				07CD006A1DEFF22F009DF8C0 /* AppDelegate.swift */,
 				07CD006C1DEFF22F009DF8C0 /* ViewController.swift */,
+				07CD008A1DF14A3D009DF8C0 /* QuizViewController.swift */,
 				07CD006E1DEFF230009DF8C0 /* Main.storyboard */,
 				07CD00711DEFF230009DF8C0 /* Assets.xcassets */,
 				07CD00731DEFF230009DF8C0 /* LaunchScreen.storyboard */,
@@ -146,7 +152,7 @@
 				TargetAttributes = {
 					07CD00661DEFF225009DF8C0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = H3PN636K2A;
+						DevelopmentTeam = 7LQ42EZUAN;
 						ProvisioningStyle = Automatic;
 					};
 					07CD007A1DEFF236009DF8C0 = {
@@ -201,8 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CD008B1DF14A3D009DF8C0 /* QuizViewController.swift in Sources */,
 				07CD006D1DEFF22F009DF8C0 /* ViewController.swift in Sources */,
 				07CD006B1DEFF22F009DF8C0 /* AppDelegate.swift in Sources */,
+				07CD008D1DF15F05009DF8C0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H3PN636K2A;
+				DEVELOPMENT_TEAM = 7LQ42EZUAN;
 				INFOPLIST_FILE = Quizloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgtmt.jp.Quizloop;
@@ -352,7 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H3PN636K2A;
+				DEVELOPMENT_TEAM = 7LQ42EZUAN;
 				INFOPLIST_FILE = Quizloop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgtmt.jp.Quizloop;
